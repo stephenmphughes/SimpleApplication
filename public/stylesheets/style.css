@@ -1,8 +1,67 @@
+/* General Page Styling */
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #f8f9fa;
 }
 
+/* Links */
 a {
   color: #00B7FF;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #343a40 !important;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white !important;
+}
+.navbar-nav .nav-link {
+  color: rgba(255,255,255,0.75) !important;
+}
+.navbar-nav .nav-link:hover {
+  color: white !important;
+}
+
+/* Hero Section */
+.hero-section {
+  background-size: cover;
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero-section p {
+  font-size: 1.2rem;
+  max-width: 600px;
+}
+
+/* Content Section */
+.content {
+  padding: 50px 20px;
+}
+
+/* Footer */
+.footer {
+  background: #343a40;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
